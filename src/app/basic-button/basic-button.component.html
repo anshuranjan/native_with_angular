@@ -1,0 +1,4 @@
+<button *ngIf="btnType === 'raisedButton'" mat-raised-button  color="{{btColor}}" disabled="{{isDisabled}}">{{btText}}</button>
+<button *ngIf="btnType === 'basicButton'" mat-button  color="{{btColor}}" disabled="{{isDisabled}}">{{btText}}</button>
+<button *ngIf="btnType === 'flatButton'" mat-flat-button  color="{{btColor}}" disabled="{{isDisabled}}">{{btText}}</button>
+<button *ngIf="btnType === 'strokedButton'" mat-stroked-button  color="{{btColor}}" disabled="{{isDisabled}}">{{btText}}</button>
